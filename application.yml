@@ -1,3 +1,24 @@
 ﻿# 注意这里要用utf-8进行保存
 # 如果使用其他的格式进行保存，那么保存的话就会犯错
+spring: 
+  profile: 
+    active: 
+      - dev
 
+---
+
+spring: 
+  profile: dev
+  application: 
+    name: microservicecloud-config-dev
+
+---
+# 测试环境
+spring: 
+  profile: test
+  application: 
+    name: microservicecloud-config-test
+   
+  
+ 
+  
