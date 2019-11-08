@@ -1,0 +1,4 @@
+﻿spring: 
+  profile: dev
+  application: 
+    name: microservicecloud-config-dev
